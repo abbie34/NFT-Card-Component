@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+body{
+    background-color: #0d192b;
+    font-family: 'outfit';
+    color: #ffffff;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    background-color: #14253d;
+    width: 20%;
+    display: block;
+    box-shadow: 0 0.5rem 30px rgb(0, 0, 0);
+    height: 68vh;
+    border-radius: 3%;
+    margin: 7.5% 0 0 40%;
+}
+
+.bg-img{
+    /* background-image: url('image-equilibrium.jpg'); */
+    display: block;
+    background-size: cover;
+    height: 50%;
+    width: 89%;
+    border-radius: 3%;
+    margin: 15px 0 0 15px;
+    position: relative;
+    float: left;
+}
+
+.bg-img img{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    z-index: 3;
+    border-radius: inherit;
+}
+
+.bg-text{
+    margin: 3px 15px 0 15px;
+    float: left;
+}
+
+.active1:hover{
+    color: #00fff7;
+    cursor: pointer;
+}
+
+.bg-text p:nth-of-type(2){
+    color: #8bacda;
+    font-size: 14px; 
+}
+
+i{
+    margin-top: 5px;
+    color: #00fff7;
+    font-size: 12px;
+    font-family: 'outfit';
+    float: left;
+}
+
+i span{
+    font-family: 'outfit';
+}
+
+i:last-child{
+    margin-top: 5px;
+    float: right;
+    color: #8bacda;
+}
+
+.icons{
+    display: block;
+    padding-bottom: 25px;
+}
+
+.sm-box{
+    border-top: 0.5px solid #8bacda;
+    margin-top: 10px;
+    display: block;
+}
+
+.sm-box p{
+    margin-left: 10px;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-right: 10px;
+    display: inline-block;
+    color: #8bacda;
+}
+
+.sm-box span{
+    color: #ffffff;
+}
+
+.sm-box span:hover{
+    color: #00fff7;
+    cursor: pointer;
+}
+
+.sm-box img{
+    margin-top: 15px;
+    width: 32px;
+    height: 32px;  
+    float: left;
+    border: 1px solid #ffffff;
+    border-radius: 50%; 
+}
